@@ -12,48 +12,51 @@
 }
 
 header {
-  height: 270px;
+  height: 15%;
   width: 70%;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
 }
 header .header-content {
-  height: 85%;
+  height: 170px;
   width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   display: flex;
 }
 header .header-content .header-img {
-  width: 500px;
-  height: 220px;
-  margin-top: 10px;
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+header .header-content .header-img img {
+  width: 100%;
+  height: 100%;
 }
 header .header-content .header-access {
   width: 800px;
-  height: 210px;
+  height: 100%;
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: end;
 }
 header .header-content .header-access .access {
+  margin-top: 5px;
   width: 40%;
-  height: 60px;
+  height: 45px;
   display: flex;
+  padding: 8px;
 }
 header .header-content .header-access .access .access-content {
   width: 100%;
   text-align: center;
-  margin-top: auto;
+  align-items: center;
   color: white;
 }
 header .header-content .header-access .access .p-content {
@@ -75,9 +78,13 @@ header .header-list .list-content li {
   list-style: none;
   display: inline;
 }
+header .header-list .list-content .bot-line {
+  border-bottom: #505050 5px solid;
+}
 
 main .search-main-img {
   background-image: url(../img/bandeau-toutes-pages.png);
+  background-position: center;
   width: 100%;
   margin-top: 5px;
   height: 8vh;
@@ -116,7 +123,7 @@ main .search-main-content .search-main-icone img {
   filter: invert(1);
 }
 main .main-content {
-  background-color: #B0B0B0;
+  background-color: #E5E5E5;
   width: 100%;
   height: 290px;
   display: flex;
@@ -158,15 +165,15 @@ main .main-content .main-info .main-prevention .prev-content .btn {
 main .main-content .main-info .main-title {
   display: flex;
   flex-direction: column;
-  margin-top: 14px;
+  margin-top: 15px;
   margin-left: 30px;
   width: 60%;
   height: 85%;
 }
 main .main-content .main-info .main-title h2 {
   height: 10%;
-  font-size: 0.99em;
-  font-weight: 500;
+  font-size: 1.25em;
+  text-transform: uppercase;
 }
 main .main-content .main-info .main-title .main-actu {
   display: flex;
@@ -177,7 +184,7 @@ main .main-content .main-info .main-title .main-actu {
 }
 main .main-content .main-info .main-title .main-actu .actu-content-main {
   padding: 10px;
-  width: 45%;
+  width: 49%;
   height: 40%;
   background-color: #ffffff;
   border-left: #A63950 5px solid;
@@ -195,7 +202,7 @@ main .main-content .main-info .main-title .main-actu .actu-content-main .p-actu 
 }
 main .main-content .main-info .main-title .main-actu .actu-content-main-1 {
   padding: 10px;
-  width: 45%;
+  width: 49%;
   height: 50%;
   background-color: #ffffff;
   border-left: rgb(0, 74, 131) 5px solid;
@@ -213,8 +220,8 @@ main .main-content .main-info .main-title .main-actu .actu-content-main-1 .p-act
 }
 main .main-content .main-info .main-title .main-actu .actu-content-main-2 {
   padding: 10px;
-  width: 45%;
-  height: 43%;
+  width: 49%;
+  height: 40%;
   background-color: #ffffff;
   border-left: #000000 5px solid;
 }
@@ -243,8 +250,9 @@ main .main-content .main-info .btn-svp .btn-actu {
   font-size: 0.9em;
 }
 main .main-div {
+  margin-top: 10px;
   width: 100%;
-  height: 25%;
+  height: 40%;
   background-color: aqua;
 }
 
