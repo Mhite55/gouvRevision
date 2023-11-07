@@ -1,0 +1,251 @@
+.bg-color {
+  background-color: #A63950;
+}
+
+.bg-color2 {
+  background-color: #B0B0B0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 270px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+header .header-content {
+  height: 85%;
+  width: 100%;
+  display: flex;
+}
+header .header-content .header-img {
+  width: 500px;
+  height: 220px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-content .header-access {
+  width: 800px;
+  height: 210px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+header .header-content .header-access .access {
+  width: 40%;
+  height: 60px;
+  display: flex;
+}
+header .header-content .header-access .access .access-content {
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+  color: white;
+}
+header .header-content .header-access .access .p-content {
+  margin: auto;
+}
+header .header-list {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+header .header-list .list-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-list .list-content li {
+  list-style: none;
+  display: inline;
+}
+
+main .search-main-img {
+  background-image: url(../img/bandeau-toutes-pages.png);
+  width: 100%;
+  margin-top: 5px;
+  height: 8vh;
+  box-shadow: 0 -20px 20px -20px rgba(0, 0, 0, 0.5) inset;
+  opacity: 0.5;
+  filter: blur(5px);
+  position: absolute;
+}
+main .search-main-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 68%;
+  height: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+main .search-main-content input {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 60%;
+  height: 48px;
+}
+main .search-main-content .search-main-icone {
+  width: 40px;
+  height: 48px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .search-main-content .search-main-icone img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+}
+main .main-content {
+  background-color: #B0B0B0;
+  width: 100%;
+  height: 290px;
+  display: flex;
+  align-items: center;
+}
+main .main-content .main-info {
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+main .main-content .main-info .main-prevention {
+  margin-left: 49.5px;
+  margin-top: 15px;
+  width: 350px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
+  height: 85%;
+  background-color: #ffffff;
+  padding: 15px;
+}
+main .main-content .main-info .main-prevention .prev-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+main .main-content .main-info .main-prevention p {
+  font-size: 0.9em;
+}
+main .main-content .main-info .main-prevention .prev-content {
+  display: flex;
+  width: 100%;
+  height: 32px;
+}
+main .main-content .main-info .main-prevention .prev-content .btn {
+  width: 40%;
+  height: 32px;
+  background-color: #000000;
+  color: white;
+  font-size: 0.9em;
+}
+main .main-content .main-info .main-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  margin-left: 30px;
+  width: 60%;
+  height: 85%;
+}
+main .main-content .main-info .main-title h2 {
+  height: 10%;
+  font-size: 0.99em;
+  font-weight: 500;
+}
+main .main-content .main-info .main-title .main-actu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 90%;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main {
+  padding: 10px;
+  width: 45%;
+  height: 40%;
+  background-color: #ffffff;
+  border-left: #A63950 5px solid;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main .title-actu {
+  font-size: 0.9em;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 0;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main .p-actu {
+  margin-top: 5px;
+  width: 100%;
+  font-size: 0.7em;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main-1 {
+  padding: 10px;
+  width: 45%;
+  height: 50%;
+  background-color: #ffffff;
+  border-left: rgb(0, 74, 131) 5px solid;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main-1 .title-actu {
+  font-size: 0.9em;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 0;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main-1 .p-actu {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 0.7em;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main-2 {
+  padding: 10px;
+  width: 45%;
+  height: 43%;
+  background-color: #ffffff;
+  border-left: #000000 5px solid;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main-2 .title-actu {
+  font-size: 0.9em;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 0;
+}
+main .main-content .main-info .main-title .main-actu .actu-content-main-2 .p-actu {
+  margin-top: 5px;
+  width: 100%;
+  font-size: 0.7em;
+}
+main .main-content .main-info .btn-svp {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: end;
+}
+main .main-content .main-info .btn-svp .btn-actu {
+  width: 30%;
+  height: 100%;
+  background-color: #000000;
+  color: white;
+  font-size: 0.9em;
+}
+main .main-div {
+  width: 100%;
+  height: 25%;
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */
